@@ -17,9 +17,6 @@
         android:theme="@style/Theme.VIT_AP_NightCanteen"
         tools:targetApi="31">
         <activity
-            android:name=".payment_activity"
-            android:exported="false" />
-        <activity
             android:name=".Staff_page"
             android:parentActivityName=".Staff_login"
             android:windowSoftInputMode="adjustNothing" />
