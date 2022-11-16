@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_intro"
+    android:hapticFeedbackEnabled="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/whoareyou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="24dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/you_are_a"
+        android:textColor="#121111"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/Student"
+        app:layout_constraintStart_toStartOf="@+id/Student"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/Student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="127dp"
+        android:background="#F76E11"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/student"
+        android:textColorHighlight="#DDCDCD"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/staff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:background="#F76E11"
+        android:fontFamily="sans-serif-black"
+        android:text="  STAFF  "
+        android:textColor="#1B1A1A"
+        android:textColorHighlight="#151414"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
