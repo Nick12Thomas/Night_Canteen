@@ -10,18 +10,20 @@ In Google Sheets, each menu item's price and quantity are recorded, and the Staf
 
 Any UPI app that has been downloaded and installed on a mobile device can be used to make a payment. After submitting , a pop-up window appears asking you to choose the UPI account you want to make the payment from.
 
-#Mayank Malhotra
 
-#Mayank Malhotra
+Mayank Malhotra
 - Creating the Login Activity for Student and Staff 
 - Joining all the Activities through the Intent
 - Implementing the payment Interface
 
-#R Soundarya
--
+R Soundarya
+-Creating the UI for the App
+-Creating Front and Backend for the Student Page for adding Products and calculating the total
 
-#Nikhil S Thomas
--
+Nikhil S Thomas
+-Creating the UI for the App
+-Creating Front and Backend for the Staff Page for Updating Menu and Quantity and Price
 
-#Rukhsar Rahman
--
+Rukhsar Rahman
+-Backend for the Project
+-Implementing the Database Related work through Api and App-Scripts
