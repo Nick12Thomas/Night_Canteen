@@ -9,10 +9,15 @@ The staff interface, on the other hand, provides employees with the ability to u
 
 Our team has divided the work among ourselves to ensure efficient and high-quality development. 
 
+
 •	Mayank Malhotra has created the login activity for student and staff, joined all the activities through the Intent and implemented the payment interface. 
+
 •	R Soundarya has created the UI for the App, front and backend for the student page for adding products and calculating the total. 
-•	Nikhil S Thomas has created the UI for the App, front and backend for the staff page for updating menu and quantity and price. 
+
+•	Nikhil S Thomas has created the UI for the App, front and backend for the staff page for updating menu and quantity and price.
+
 •	Rukhsar Rahman has worked on the backend for the project, implementing the database-related work through API and App-Scripts.
+
 
 
 The application is built using Java, API and UPI for the payment gateway. It makes the night canteen's management process more efficient and convenient for both students and staff. With this application, students can easily place orders and make payments, and staff can efficiently update the menu and keep track of inventory.
