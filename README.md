@@ -1,29 +1,19 @@
 # Night_Canteen
 
-This project was made by me and my team for the Hostel's Night Canteen Management at my college. The project is an Android application with two interfaces: a student interface and a staff interface.
+We have developed an innovative and user-friendly android application for managing the night canteen at our college. 
 
-Student Interface: The University will provide the student with a Wi-Fi password and registration number for access. The student can add items to the basket after providing the right password, but in order to successfully place an order, the student must make the final payment. Any online payment app that supports UPI can be used to make a payment; upon successful payment, an order will be placed and the items will be removed from the database.
-
-Staff Interface: After entering their employee ID and password to access the app, staff members will be able to update the menu items, prices, and quantities available. The database will be immediately updated with these changes.
-
-In Google Sheets, each menu item's price and quantity are recorded, and the Staff Interface allows for updates.
-
-Any UPI app that has been downloaded and installed on a mobile device can be used to make a payment. After submitting , a pop-up window appears asking you to choose the UPI account you want to make the payment from.
+The application has two main interfaces: one for students and one for staff. The student interface allows students to access the canteen's menu, add items to their basket, and make a payment using any UPI app that is installed on their mobile device. The university will provide the student with a Wi-Fi password and registration number for access. In order to successfully place an order, the student must make the final payment. Upon successful payment, an order will be placed and the items will be removed from the database.
 
 
-Mayank Malhotra
-- Creating the Login Activity for Student and Staff 
-- Joining all the Activities through the Intent
-- Implementing the payment Interface
+The staff interface, on the other hand, provides employees with the ability to update the menu items, prices, and quantities available in the canteen. Staff members can access the interface by entering their employee ID and password. The database is immediately updated with these changes and the information is recorded in Google Sheets, which allows for easy tracking and updates.
 
-R Soundarya
-- Creating the UI for the App
-- Creating Front and Backend for the Student Page for adding Products and calculating the total
+Our team has divided the work among ourselves to ensure efficient and high-quality development. 
 
-Nikhil S Thomas
-- Creating the UI for the App
-- Creating Front and Backend for the Staff Page for Updating Menu and Quantity and Price
+•	Mayank Malhotra has created the login activity for student and staff, joined all the activities through the Intent and implemented the payment interface. 
+•	R Soundarya has created the UI for the App, front and backend for the student page for adding products and calculating the total. 
+•	Nikhil S Thomas has created the UI for the App, front and backend for the staff page for updating menu and quantity and price. 
+•	Rukhsar Rahman has worked on the backend for the project, implementing the database-related work through API and App-Scripts.
 
-Rukhsar Rahman
-- Backend for the Project
-- Implementing the Database Related work through Api and App-Scripts
+
+The application is built using Java, API and UPI for the payment gateway. It makes the night canteen's management process more efficient and convenient for both students and staff. With this application, students can easily place orders and make payments, and staff can efficiently update the menu and keep track of inventory.
+
